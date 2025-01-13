@@ -8,6 +8,12 @@
 <body>
     <script>
         function max(a,b){
+            if (a < b){
+        return(b)
+        }
+        else {
+        return(a)
+        }
             
         }
         
@@ -19,12 +25,7 @@
         //alert("Le nombre le plus grand est le nombre a")
         //} 
 
-        if (a < b){
-        return(b)
-        }
-        else {
-        return(a)
-        }
+       
 
         let a = Number(prompt("entrer un nombre"));
         let b = Number(prompt("entrer un deuxième nombre"));
