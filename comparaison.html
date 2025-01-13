@@ -10,8 +10,7 @@
         function max(a,b){
             
         }
-        let a = Number(prompt("entrer un nombre"));
-        let b = Number(prompt("entrer un deuxième nombre"));
+        
 
         //if (a < b){
         //alert("Le nombre le plus grand est le nombre b")
@@ -20,10 +19,21 @@
         //alert("Le nombre le plus grand est le nombre a")
         //} 
 
-        
-        
+        if (a < b){
+        return(b)
+        }
+        else {
+        return(a)
+        }
 
-        
+        let a = Number(prompt("entrer un nombre"));
+        let b = Number(prompt("entrer un deuxième nombre"));
+
+        let r = max(a,b);
+
+        console.log(r)
+
+
        
 
 
