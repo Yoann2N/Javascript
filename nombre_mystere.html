@@ -9,25 +9,28 @@
     <script>
 
         const NOMBRE_MYSTERE = 7;
-        let coninuer = true;
+        let continuer = true;
 
         while (continuer = true) {
             let nombre = Number(prompt("entrer un nombre"));
-            if (nombre = "");
-            continuer = false 
+            if (nombre <> "")
+            continuer = true
            
             
       
 
-            if (nombre == NOMBRE_MYSTERE){
-                console.log("Bravo vous avez trouvez le nombre mystère");
-            }
-            else {
-                if (nombre < NOMBRE_MYSTERE)
-                    console.log("le nombre mystère est plus grand");
-                else
-                    console.log("le nombre mystère est plus petit");
+                if (nombre == NOMBRE_MYSTERE){
+                    console.log("Bravo vous avez trouvez le nombre mystère");
+                }
+                else {
+                    if (nombre < NOMBRE_MYSTERE)
+                        console.log("le nombre mystère est plus grand");
+                    else
+                        console.log("le nombre mystère est plus petit");
             
+                }
+            else {
+                continuer = false
             }
         }
 
