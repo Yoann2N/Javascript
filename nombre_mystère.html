@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre mystère</title>
+</head>
+<body>
+    <script>
+
+        const NOMBRE_MYSTERE = 7;
+        let coninuer = true;
+
+        while (continuer) {
+            let nombre = Number(prompt("entrer un nombre"));
+      
+
+            if (nombre == NOMBRE_MYSTERE){
+                console.log("Bravo vous avez trouvez le nombre mystère");
+            }
+            else {
+                if (nombre < NOMBRE_MYSTERE)
+                    console.log("le nombre mystère est plus grand");
+                else
+                    console.log("le nombre mystère est plus petit");
+            
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
