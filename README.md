@@ -1,2 +1,2 @@
 # Javascript
-Dépôt pour les projets javascript 
+Dépôt pour les projets javascript  en cours de BTS 
