@@ -7,10 +7,11 @@ function mois(i) {
 let mois = ["janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre"];
 if (monthNumber < 1 || monthNumber > 12) {
     return "Numéro de mois non valide";
+}
 else {
         return mois[monthNumber - 1];
     };
- }
+ 
 }
 
 console.log(getMonthName(1)); // Affiche "Janvier"
