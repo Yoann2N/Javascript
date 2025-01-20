@@ -9,7 +9,7 @@ if (mois < 1 || mois > 12) {
     return "Numéro de mois non valide";
 }
 else {
-        return mois[monthNumber - 1];
+        return mois[mois - 1];
     };
  
 }
