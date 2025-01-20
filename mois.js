@@ -5,7 +5,7 @@ function mois(i) {
     // sans faire ça : if( i==1) return "janvier"; else if (i==2) return "fevrier"; ...
 
 let mois = ["janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre"];
-if (monthNumber < 1 || monthNumber > 12) {
+if (mois < 1 || mois > 12) {
     return "Numéro de mois non valide";
 }
 else {
